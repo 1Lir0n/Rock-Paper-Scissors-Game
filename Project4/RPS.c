@@ -17,7 +17,7 @@ int main() {
 	int _AI_Choice;
 	int contin = 1;
 	while (contin) {
-		printf("Select Player Amount: (min 1)\n");
+		printf("Select Player Amount: (1-2)\n");
 		scanf("%d", &playerAmount);
 
 		switch (playerAmount) {
